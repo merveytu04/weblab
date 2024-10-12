@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>SKY LAB NEWS </title>
+
+    <link href="./reset.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <img src="skylab.jpg" alt="skylablogo" />
+        </div>
+        <nav class="desktop-nav">
+          <a href="#">Ana Sayfa </a>
+          <a href="#">Yeni</a>
+          <a href="#">Popüler</a>
+          <a href="#">Trend</a>
+          <a href="#">Kategoriler</a>
+        </nav>
+        <img class="hamburger-menu-open" src="" />
+      </header>
+      <main>
+        <section id="featured-new">
+          <div class="featured-new-image">
+            <img
+              src="artlab.jpeg"
+              alt="artlablogo"
+            />
+          </div>
+          <div class="featured-new-body">
+            <h1>ARTLAB : YAPAY ZEKA ZİRVESİ</h1>
+            <div class="featured-new-description">
+              <p>
+                26 Kasım 2024 tarihinde altıncısı düzenlenecek olan Artlab 
+                etkinliğinin nasıl olacağı merak ediliyor.
+                 Hangi şirketler sponsor oldu ? 
+                 Fuaye alanında bizleri neler bekliyor?
+              </p>
+              <button>DAHA FAZLASI</button>
+            </div>
+          </div>
+        </section>
+        <section id="news-sidebar">
+          <h2>YENİ!</h2>
+          <div class="new-item">
+            <h4>AGC YARIŞMASI</h4>
+            <p>ALGOLAB ekibi senenin ilk algoritma yarışmasını 
+              15 Ekimde gerçekleştiriyor.
+            </p>
+          </div>
+          <div class="new-item">
+            <h4>BizBize</h4>
+            <p>
+              Mükemmel bir etkinlik olan BizBize ilk etkinliğini 
+              16 Ekimde mükemmel bir ekiple gerçekleştiriyor.
+            </p>
+          </div>
+          <div class="new-item">
+            <h4>Muhterem Tayfa Nedir?</h4>
+            <p>
+              Muhterem Tayfanın ne olduğunu anlatan videomuz 
+              SKY LAB instagram adresinde yayınlandı.
+            </p>
+          </div>
+        </section>
+        <section id="news-bottom">
+          <div class="new-bottom-item">
+            <div class="new-image">
+              <img src="tesla.jpeg" />
+            </div>
+            <div class="new-body">
+              <p class="new-body-number">01</p>
+              <h3>ROBOTAXI</h3>
+              <p class="new-body-description">
+                Elon Musk Robotaxi'yi tanıttı , Tesla hisseleri %6 eridi.
+              </p>
+            </div>
+          </div>
+          <div class="new-bottom-item">
+            <div class="new-image">
+              
+            </div>
+            <div class="new-body">
+              <p class="new-body-number">02</p>
+              <h3>SKY LAB TANIŞMA KAHVESİ</h3>
+              <p class="new-body-description">
+                SKY LAB tanışma kahvesi 14 ekim pazartesi günü saat 12.30 kongre
+                merkezinde gerçekleşecek.
+              </p>
+            </div>
+          </div>
+          <div class="new-bottom-item">
+            <div class="new-image">
+              <img src="joker.jpeg" />
+            </div>
+            <div class="new-body">
+              <p class="new-body-number">03</p>
+              <h3>Joker 2 Vizyona Girdi</h3>
+              <p class="new-body-description">
+                ‘Joker: Folie à Deux’, 40 milyon dolarlık hasılatıyla 
+                bir numaraya yerleşmesine rağmen ilk filmin başarısını yakalayamadı.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Hamburger Menu -->
+      <div class="hamburger-menu-wrapper">
+        <div class="overlay"></div>
+        <div class="mobile-nav-wrapper">
+          <img class="close-icon" src="./assets/images/icon-menu-close.svg" />
+          <nav class="mobile-nav">
+            <a href="#">Home</a>
+            <a href="#">New</a>
+            <a href="#">Popular</a>
+            <a href="#">Trending</a>
+            <a href="#">Categories</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
